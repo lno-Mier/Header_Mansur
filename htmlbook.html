@@ -12,6 +12,8 @@
 			background-color: #55524A;
 			padding-left: 9px;
 			padding-right: 10px;
+			display: flex;
+			flex-wrap: wrap;
 		}
 		.logo{
 			width: 184px;
@@ -21,12 +23,53 @@
 			float: right;
 			margin: 20px;
 			background-image: url(search.png);
+			background-position: right top;
+			background-repeat: no-repeat;
 		}
 		.icon_1{
-			width: 66px;
+			background-color: #FFF8E8;
+			width: 76px;
 			height: 66px;
-			background-color: #FFF2D4;
-			float: left;
+			margin-right: 0px;
+			margin-left: 16px;
+			background-image: url(icons8-головоломка.svg);
+			background-position: center top;
+			background-repeat: no-repeat;
+		}
+		.icon_2{
+			background-color: #FFF8E8;
+			width: 76px;
+			height: 66px;
+			margin-right: 0px;
+			margin-left: 4px;
+			background-image: url(icons8-html-5.svg);
+			background-position: center top;
+			background-repeat: no-repeat;
+		}
+		.icon_3{
+			background-color: #FFF8E8;
+			width: 76px;
+			height: 66px;
+			margin-right: 0px;
+			margin-left: 4px;
+			background-image: url(icons8-css3.svg);
+			background-position: center top;
+			background-repeat: no-repeat;
+		}
+		.icon_4{
+			background-color: #FFF8E8;
+			width: 76px;
+			height: 66px;
+			margin-right: 490px;
+			margin-left: 4px;
+			background-image: url(icons8-новости.svg);
+			background-position: center top;
+			background-repeat: no-repeat;
+		}
+		#text-1{
+			font-family: serif;
+			background-position: center bottom;
+			margin-top: 40px;
 		}
 	</style>
 </head>
@@ -34,9 +77,19 @@
 	<header>
 		<div class="container_left_image">
 			<img src="logo.svg" class="logo">
-			<input type="text" name="search" id="search" placeholder="Поиск по сайту">
 			<div class="icon_1">
+				<p id="text-1">Основное</p>
 			</div>
+			<div class="icon_2">
+				<p id="text-1">HTML</p>
+			</div>
+			<div class="icon_3">
+				<p id="text-1">CSS</p>
+			</div>
+			<div class="icon_4">
+				<p id="text-1">Сайты</p>
+			</div>
+			<input type="text" name="search" id="search" placeholder="Поиск по сайту">
 		</div>
 	</header>
 </body>

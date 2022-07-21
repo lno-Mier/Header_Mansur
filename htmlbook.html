@@ -71,40 +71,42 @@
 			background-position: center bottom;
 			margin-top: 40px;
 		}
-		Button{
-			width: 76px;
-			height: 66px;
+		button{
 			margin-right: 0px;
 			margin-left: 16px;
-		}
-		Button:hover>.icon_1{
-			background-color: #FFDF94;
 			width: 76px;
 			height: 66px;
-			background-image: url(icons8-головоломка.svg);
-			background-position: center top;
-			background-repeat: no-repeat;
+			border: none;
 		}
+		button:focus{
+			background-color: #FFDF94;
+			border: none;
 	</style>
 </head>
 <body>
 	<header>
 		<div class="container_left_image">
 			<img src="logo.svg" class="logo">
-			<button>
-				<div class="icon_1">
+			<button class="icon_1">
+				<div>
 					<p id="text-1">Основное</p>
 				</div>
 			</button>
-			<div class="icon_2">
-				<p id="text-1">HTML</p>
-			</div>
-			<div class="icon_3">
-				<p id="text-1">CSS</p>
-			</div>
-			<div class="icon_4">
-				<p id="text-1">Сайты</p>
-			</div>
+			<button class="icon_2">
+				<div>
+					<p id="text-1">HTML</p>
+				</div>
+			</button>
+			<button class="icon_3">
+				<div>
+					<p id="text-1">CSS</p>
+				</div>
+			</button>
+			<button class="icon_4">
+				<div>
+					<p id="text-1">Сайты</p>
+				</div>
+			</button>
 			<input type="text" name="search" id="search" placeholder="Поиск по сайту">
 		</div>
 	</header>
